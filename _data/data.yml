@@ -1,0 +1,245 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Stefan Cecelski
+    tagline: Meteorological Data Scientist and Engineer
+    avatar: headshot.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email:
+    phone: #012 345 6789
+    timezone: America/New_York # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship: United States
+    website: https://stefanc-wx.github.io/ # Include the full website URL, including "http://" or "https://".
+    linkedin: stefan-cecelski-43874654
+    xing: 
+    github: stefanc-wx
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: assets/docs/Cecelski_cv.pdf # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+    #languages:
+    #  title: Programming Languages
+    #  info:
+    #    - idiom: Python
+    #      level: Expert
+
+    interests:
+      title: Interests
+      info:
+        - item: Weather & Forecasting
+          link:
+
+        - item: Birding & Nature
+          link:
+
+        - item: International Travel
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am a meteorological data scientist and engineer with a focus on building
+      [award-winning](https://aws.amazon.com/solutions/case-studies/maxar-case-study/) computing environments for creating, 
+      processing, and analyzing weather data. Using my deep understanding of numerical weather prediction (NWP) 
+      and weather datasets, I continue innovate by delivering weather-focused insights using cost-effective and low latency
+      solutions. I am a AWS Certified Solutions Architect - Associate with robust knowledge of many services and their application 
+      for weather and climate workflows. Please find a PDF copy of my CV [here](assets/docs/Cecelski_cv.pdf).
+skills:
+    title: Skills and Proficiency
+
+    toolset:
+      - name: Weather data processing &amp; analysis
+        level: 99%
+
+      - name: Python for the earth sciences
+        level: 97%
+
+      - name: NWP &amp; high performance computing
+        level: 95%
+
+      - name: Cloud computing (AWS)
+        level: 92%
+
+      - name: Scientific technical writing
+        level: 90%
+
+      - name: Project &amp; product management
+        level: 75%
+certifications:
+      title: Certifications
+      list:
+        - name: AWS Certified Solutions Architect - Associate
+          start: 2019
+          end: 2025
+          organization: Amazon Web Services
+          #credentialid: 111-222
+          credentialurl: www.credly.com/badges/69091308-4c8a-4c1b-b178-8abf904f41dd
+          credentialname: Credly Verification
+          #details: |
+
+education:
+    title: Education
+    info:
+      - degree: Ph.D. in Atmospheric and Oceanic Science
+        university: University of Maryland
+        time: 2009 - 2014
+        details: |
+          Thesis: On The Genesis and Predictability of Hurricane Julia (2010)
+            - [PDF](assets/docs/Cecelski_PhD_Thesis.pdf)
+            - [Link](https://drum.lib.umd.edu/items/818b5e9a-2f27-42f5-800f-fed1b25aa2f7)
+          
+          Fellowships:
+            - 2012 NASA Earth and Space Science Fellowship (NESSF) Recipient
+            - 2012 Eugene Rasmusson Fellowship Award Recipient
+      - degree: M.S. in Atmospheric and Oceanic Science
+        university: University of Maryland
+        time: 2009 - 2012
+        #details: |
+      - degree: B.S. in Meteorology (Minor in Mathematics)
+        university: Millersville University of Pennsylvania
+        time: 2005 - 2009
+        #details: |
+
+experiences:
+    title: Experiences
+    info:
+      - role: Principal Meteorological Data Scientist/Engineer
+        time: Dec 2024 - Present
+        company: Vaisala
+        details: |
+          In December 2024, Vaisala acquired Maxar Intelligence's WeatherDesk group, including my role
+          as a Principal Meteorological Data Scientist/Engineer.
+      - role: Principal Meteorological Data Scientist/Engineer
+        time: Nov 2022 - Dec 2024
+        company: Maxar Intelligence (formerly Maxar)
+        details: |
+          - Spearheading and executing cloud-based weather modeling initiatives including the use of numerical weather
+          models as well as deep learning weather model training and inferencing.
+          - Prioritizing, leading, and planning strategic scientific research and development to unlock weather data for
+          specific client use cases.
+          - Technical lead for the award winning AWS cloud HPC solution developed by Maxar.
+      - role: Senior Meteorological Data Scientist/Engineer
+        time: Jul 2020 - Nov 2022
+        company: Maxar
+        details: |
+          - Leading, planning, and executing technical road maps for new products and initiatives.
+          - Designing and implementing serverless cloud-based workflows for real-time data processing and analysis.
+      - role: Meteorological Data Scientist/Engineer
+        time: Jul 2018 - Nov 2020
+        company: Maxar
+        details: |
+          - Building cloud-based (AWS) parallelized processing and extraction environments to support client-focused
+          solutions.
+          - Designing and maintaining cloud high performance computing numerical weather prediction systems and workflows.
+          - Migrating and refactoring meteorological data processing and delivery applications for use in AWS.
+      - role: Scientist III
+        time: Mar 2018 - Jul 2018
+        company: Cherokee Nation Businesses (NOAA Contractor)
+        details: |
+          - Supported the National Earth System Prediction Capability (ESPC) through scientific, technological, and
+          strategic guidance.
+          - Helped identify, synthesize, and promote state-of-the-art research for operational use.
+      - role: Vice President for Earth Sciences
+        time: May 2016 - Mar 2018
+        company: Weather Analytics
+        details: |
+          - Wrote patents, including creation of workflow diagrams, that focus on key scientific and data innovations 
+          created by the company.
+          - Spearheaded and managed strategic meteorological research and development initiatives critical to the
+          improvement of the company product line.
+          - Created and maintained several scientific computational environments, including HPC clusters, within AWS.
+          - Generated technological plans and cost estimates for business development and product innovation.
+          - Led a team of meteorologists in the development and implementation of business-related weather solutions.
+          - Oversaw day-to-day operations of several employees, products, and research-to-operation projects.
+      - role: Vice President for Scientific Solutions
+        time: Feb 2016 - May 2016
+        company: Weather Analytics
+        details: |
+          - Led several initiatives to enhance and create new weather applications for clients.
+          - Managed team prioritization of numerous scientific research-to-operation projects.
+          - Designed innovative approaches for the acquisition, curation, processing, and storage of new meteorological
+          datasets.
+          - Prepared proposals to secure business through Small Business Innovation Research (SBIR) solicitations.
+
+publications:
+    title: Publications, Patents, and Presentations
+    #intro: |
+    papers:
+      - title: An Elastic Multiarchitecture Cloud-based High Performance Computing Environment for the Global Forecast System
+        link: "https://ams.confex.com/ams/104ANNUAL/meetingapp.cgi/Paper/435707"
+        authors: S. F. Cecelski
+        conference: 104th Annual American Meteorological Society Conference (2024)
+
+      - title: Running HPC in the cloud for global Numerical Weather Prediction
+        link: "https://d1.awsstatic.com/events/reinvent/2019/Powering_global-scale_predictive_intelligence_using_HPC_on_AWS_AIM227-S.pdf"
+        authors: S. F. Cecelski
+        conference: "AWS re:Invent (2019)"
+
+      - title: Automated processing and combination of weather data sources for weather severity and risk scoring
+        link: "https://patents.google.com/patent/US11644597B2/en"
+        authors: E. D. Cousins and S. F. Cecelski
+        conference: United States patent 11,644,597 (2023)
+
+      - title: Automated Severity-Based Risk Scoring for Ice Storms and Freezing Rain
+        link: "https://patents.google.com/patent/US10962681B2/en"
+        authors: E. D. Cousins and S. F. Cecelski
+        conference: United States patent 10,962,681 (2021)
+
+      - title: Formulation and Delivery of Dynamic, Severity-Based Weather Peril Scoring
+        link: "https://patents.google.com/patent/US10534784B2/en"
+        authors: E. D. Cousins and S. F. Cecelski
+        conference: United States patent 10,534,784 (2020)
+
+      - title: Corrective Ensemble Forecasting System for Tropical Cyclones
+        link: "https://patents.google.com/patent/US20180292573A1/en"
+        authors: S. F. Cecelski, L. A. Munchak, and S. T. Daigneault
+        conference: United States patent application 15/666,959 (2017)
+
+      - title: Radar Artifact Reduction System for the Detection of Hydrometeors
+        link: "https://patents.google.com/patent/US20190064346A1/en"
+        authors: J. Jones, L. A. Munchak, and S. F. Cecelski,
+        conference: United States patent application 15/690,746 (2017)
+
+      - title: "Genesis of Hurricane Julia (2010) within an African Easterly Wave: Sensitivity to ice microphysics"
+        link: "assets/docs/Cecelski_2016.pdf"
+        authors: S. F. Cecelski and D.-L. Zhang
+        conference: Journal of Applied Meteorology and Climatology, 55, 79-92
+
+      - title: "Genesis of Tropical Storm Debby (2006) within an African Easterly wave: Roles of the bottom-up and midlevel pouch processes"
+        link: "assets/docs/Zhu_2015.pdf"
+        authors: L. Zhu, D.-L. Zhang, and S. F. Cecelski
+        conference: Journal of the Atmospheric Sciences, 72, 2267-2285
+
+      - title: "Genesis of Hurricane Julia (2010) within an African Easterly Wave: Sensitivity Analyses of WRF-LETKF Ensemble Forecasts"
+        link: "assets/docs/Cecelski_2014_2.pdf"
+        authors: S. F. Cecelski and D.-L. Zhang
+        conference: Journal of the Atmospheric Sciences, 71, 3180-3201
+
+      - title: "Genesis of Hurricane Julia (2010) within an African Easterly Wave: Developing and Non-Developing Members from WRF-LETKF Ensemble Forecasts"
+        link: "assets/docs/Cecelski_2014_1.pdf"
+        authors: S. F. Cecelski, D.-L. Zhang, and T. Myoshi
+        conference: Journal of the Atmospheric Sciences, 71, 2763-2781
+
+      - title: "Genesis of Hurricane Julia (2010) within an African Easterly Wave: Low-Level Vortices and Upper-Level Warming"
+        link: "assets/docs/Cecelski_2013.pdf"
+        authors: S. F. Cecelski and D.-L. Zhang
+        conference: Journal of the Atmospheric Sciences, 70, 3799-3817
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
