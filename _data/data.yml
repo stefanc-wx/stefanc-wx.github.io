@@ -54,7 +54,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a meteorological data scientist and engineer with a focus on building
+      I am a lead meteorological data scientist and engineer with a focus on building
       [award-winning](https://aws.amazon.com/solutions/case-studies/maxar-case-study/) computing environments for creating, 
       processing, and analyzing weather data. Using my deep understanding of numerical weather prediction (NWP) 
       and weather datasets, I continue to innovate by delivering weather-focused insights using cost-effective and low latency
@@ -79,8 +79,8 @@ skills:
       - name: Scientific technical writing
         level: 90%
 
-      - name: Project &amp; product management
-        level: 75%
+      - name: Project, product, and personnel management
+        level: 80%
 certifications:
       title: Certifications
       list:
@@ -119,34 +119,39 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Principal Meteorological Data Scientist/Engineer
-        time: Dec 2024 - Present
-        company: Vaisala
+      - role: Science Operations Lead
+        time: Nov 2025 - Present
+        company: Vaisala Xweather
         details: |
-          In December 2024, Vaisala acquired Maxar Intelligence's WeatherDesk group, including my role
-          as a Principal Meteorological Data Scientist/Engineer.
+          - Leading, prioritizing, and executing research and operationalizing initiatives to create scalable, cost-effective weather solutions 
+          for customers across numerous verticals.
       - role: Principal Meteorological Data Scientist/Engineer
+        time: Dec 2024 - Nov 2025
+        company: Vaisala Xweather
+        details: |
+          - Researching, developing, and productionizing cloud-based weather modeling platforms that leverage numerical weather and deep learning 
+          weather modeling systems.
+          - Leading, planning, and executing technical roadmaps for new products and initiatives.
+      - role: Principal Data Scientist/Engineer
         time: Nov 2022 - Dec 2024
-        company: Maxar Intelligence (formerly Maxar)
+        company: Maxar Intelligence
         details: |
-          - Spearheading and executing cloud-based weather modeling initiatives including the use of numerical weather
-          models as well as deep learning weather model training and inferencing.
-          - Prioritizing, leading, and planning strategic scientific research and development to unlock weather data for
+          - Spearheading and implementing cloud-based weather modeling projects that utilize numerical weather prediction and deep learning weather 
+          models to provide curated data and solutions for clients.
           specific client use cases.
           - Technical lead for the award winning AWS cloud HPC solution developed by Maxar.
       - role: Senior Meteorological Data Scientist/Engineer
         time: Jul 2020 - Nov 2022
         company: Maxar
         details: |
-          - Leading, planning, and executing technical road maps for new products and initiatives.
           - Designing and implementing serverless cloud-based workflows for real-time data processing and analysis.
+          - Architecting and maintaining cloud HPC numerical weather prediction systems and workflows.
       - role: Meteorological Data Scientist/Engineer
         time: Jul 2018 - Nov 2020
         company: Maxar
         details: |
           - Building cloud-based (AWS) parallelized processing and extraction environments to support client-focused
           solutions.
-          - Designing and maintaining cloud high performance computing numerical weather prediction systems and workflows.
           - Migrating and refactoring meteorological data processing and delivery applications for use in AWS.
       - role: Scientist III
         time: Mar 2018 - Jul 2018
